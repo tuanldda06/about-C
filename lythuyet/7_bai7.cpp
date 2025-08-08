@@ -1,3 +1,4 @@
+// Số tự nhiên và số chấm động
 // độ chính xác số chấm động
 /*#include <iostream>
 using namespace std;
