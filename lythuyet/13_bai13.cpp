@@ -55,6 +55,44 @@ int main()
 }
 
 
+//Toán tử điều kiện là toán tử 3 ngôi duy nhất trong c++ , tương đương với câu điều kiện(if/else statements)
+#include <iostream>
+using namespace std;
+int main()
+{
+  int x{6} , y{9},max;
+  if (x>y)
+  {
+    max = x;
+  }
+  else 
+  {
+    max = y;
+  }
+  cout<<'Max='<<max<<endl;
+  //Tương đương với
+  max =  (x>y)?x:y;
+  cout<<'Max ='<<max<<endl;
+  return 0;
+}
+//Chỉ sử dụng toán tử điều kiện với những câu điều kiện đơn giản
+#include <iostream>
+using namespace std;
+int main()
+{
+  int a{3} , b{2} ,c{4}, max ;
+  max = a
+  if (max<b)
+  {
+    max = b
+  }
+  if (max<c) 
+  {
+    max = c
+  }
+  cout<<'Max ='<<max<<endl;
+  return 0;
+}
 
 
 
